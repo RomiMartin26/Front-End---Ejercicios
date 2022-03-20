@@ -1,0 +1,51 @@
+.imagen {
+    text-align: center
+    }
+
+    h1 {
+        background-color: #C4C4C4;
+        color: #005677;
+        letter-spacing: 10px;  
+        text-align: center;
+    }
+
+    h2, h3,h4 {
+        background-color: #C4C4C4;
+        color: #005677;
+        letter-spacing: 5px;
+        text-align: left;
+        text-transform: uppercase;
+    } 
+
+    .tipodeletra {
+        font-style: italic;
+        font-weight: bold
+    }
+
+    .simple {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
+    .años {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .pie-de-pagina {
+        background-color: #005677;
+        color: #FFFFFF;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-style: normal;
+        text-align: center;
+    }
+
+
+
+    
