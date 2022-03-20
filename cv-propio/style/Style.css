@@ -1,0 +1,61 @@
+    .imagen-fondo {
+        background-image: url('../Imagenes/WhatsApp-Image-2020-03-27-at-13.36.06-990x660.jpeg');
+        /*background-image: url('./Imagenes/DH.png');*/
+        background-position: left;
+        background-repeat: repeat;
+        background-size: contain;
+    }
+
+    .fondo {
+        border: 1px solid black;
+        height: 300px;
+        width: 100%;
+    }
+
+    .imagen-perfil {
+    text-align: right;
+    }
+
+    h1 {
+        background-color: beige;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: 10px;
+        text-align: center;
+    }
+
+    .tipodeletra {
+        color: blue;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+
+    .pie-de-pagina {
+        background-color: #6049e6;
+        color: #FFFFFF;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .letraenlace {
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(32, 184, 211);
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .logoGitHub {
+        text-align: left;
+    }
+        
+
+    
+
+
+    

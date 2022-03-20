@@ -1,0 +1,31 @@
+.enlace {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    background-color: gainsboro;
+    font-style: italic;
+    font-size: 20px;
+}
+
+p {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+
+}
+
+.datos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+    
