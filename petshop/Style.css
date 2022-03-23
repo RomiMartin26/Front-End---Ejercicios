@@ -1,0 +1,100 @@
+/* Importo librería iconos*/
+@import url("https//use.fontawesome.com/releases/v6.1.0/cc/all.css");
+
+
+/* -- Barra superior*/
+
+.Superior {
+    background: #222222;
+    width: 1024px;
+    height: 20px;
+    position: absolute;
+    color: #F3F3F3;    
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+/*-- Barra media*/
+
+.Central {
+    background: #F0A83E;
+    height: 62px;
+    top: 20px;
+}
+
+
+.front {
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    width: 57.21px;
+    height: 23px;
+    top: 39px;
+}
+
+.Cat {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.letramenu {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.alineado-centro {
+    /*position: absolute;
+    left: 15.59%;
+    right: 22.85%;
+    top: 52.79%;
+    bottom: 6.35%;*/
+    width: 100%;
+    text-align: center;
+}
+
+.letra{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.contactos {
+    background: #3C2313;
+    bottom: 17px;
+    height: 284px;
+}
+
+.datos {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+
+footer {
+    height: 20px;
+    bottom: 0px;
+    background: #222222;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.logo-social {
+    color: white;
+    font-size: 40px;
+}

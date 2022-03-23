@@ -6,28 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="./css/all.css">
 </head>
 
 <body>
     <!--Inicio Barra Superior-->
-    <header>
-        <img src="./Imagenes/Rectangle 1.png" alt="rectángulo negro"><br>
-        <ul>Grandes ofertas en comedores &nbsp;Español<img src="./Imagenes/Vector 1.png" alt="flecha">&nbsp;ARG$
-            <img src="./Imagenes/Vector 1.png" alt="flecha">
-        </ul>
+    <header class="barras Superior">
+        &nbsp; &nbsp; &nbsp; <span> Grandes ofertas en comedores</span> &nbsp; &nbsp; &nbsp;
+        <span>Español <i class="fa-solid fa-angle-down"></i> </span>&nbsp; &nbsp; &nbsp;
+        <span> ARG$ <i class="fa-solid fa-angle-down"></i></span>
+
         <!--Fin Barra Superior-->
 
-        <!--Inicio Barra de menú principal-->
-        <div>
-            <img src="./Imagenes/Rectangle 3.png" alt="rectángulo naranja"><br>
+        <!--Inicio Barra Menu-->
+        <div class="barras Central">
 
-            <img src="./Imagenes/raton chiquito.png" alt="ratón"><strong>Front</strong>Cat&Dog
-            <img src="./Imagenes/osito.png" alt="osito al lado de dog">
+            &nbsp;&nbsp;&nbsp;<img src="./Imagenes/raton chiquito.png" alt="ratón"><span class="front">Front</span><span
+                class="Cat">Cat&Dog</span>
+            <img src="./Imagenes/osito.png" alt="osito al lado de dog"> &nbsp; &nbsp; &nbsp; &nbsp;
 
-            <img src="./Imagenes/pawprint 2.png" alt="patita">Categorías&nbsp;<img src="./Imagenes/pawprint 2.png"
-                alt="patita">Pets &nbsp;<img src="./Imagenes/pawprint 2.png" alt="patita">Nosotros &nbsp;<img
-                src="./Imagenes/pawprint 2.png" alt="patita">Contactanos<br>
+            <i class="fa-solid fa-paw"></i> <span class="letramenu">Categorías</span> &nbsp; &nbsp;
+            <i class="fa-solid fa-paw"></i> <span class="letramenu"> Pets</span> &nbsp; &nbsp;
+            <i class="fa-solid fa-paw"></i> <span class="letramenu">Nosotros</span> &nbsp; &nbsp;
+            <i class="fa-solid fa-paw"></i> <span class="letramenu">Contactanos</span> <br>
         </div><br>
+
+        <!--Inicio Barra de menú principal-->
+        
+
     </header>
     <!--Fin Barra de Menú principal-->
     <main>
@@ -38,11 +45,11 @@
         <!--cierre sección Banner-->
         <section>
             <!--Inicio section productos-->
-            <p>
-                <center><img src="./Imagenes/patita.png" alt="Imagen patita grande"></center>
-            </p><br>
-            <h1 align="center">Productos Destacados</h1><br>
-            <P align="center">Comederos &nbsp;- &nbsp;Accesorios &nbsp;-&nbsp;Comida</P>
+            <div class="alineado-centro">
+                <img src="./Imagenes/patita.png" alt="Imagen patita grande">
+            </div><br><br>
+            <h1 class="alineado-centro"> Productos Destacados</h1><br>
+            <p>Comederos &nbsp;- &nbsp;Accesorios &nbsp;-&nbsp;Comida</p>
 
             <img src="./Imagenes/churrasquito.png" alt="imagen churrasquito">
             <br100></br100>
@@ -58,11 +65,26 @@
                 Juguete Huesito<br><br>$650
             </p>
         </section>
+        <section>
+            <p>Enlaces</p>
+        </section>
         <!--Fin Section Productos-->
+
+        <!--Inicio section contacto-->
+        <section class="contactos">
+            &nbsp;&nbsp;<i class="fa-solid fa-location-dot logo-social"></i><span class="Cat">Localidad</span><br>
+            &nbsp;&nbsp;<span class="datos">Calle - provincia</span><br><br><br>
+            &nbsp;&nbsp;<i class="fa-solid fa-phone-volume logo-social"></i><span class="Cat">Teléfono</span> <br>
+            &nbsp;&nbsp;<span class="datos">Número de teléfono</span><br><br><br>
+            &nbsp;&nbsp;<i class="fa-regular fa-envelope logo-social"></i>
+            <span class="Cat">Correo Electrónico </span><br>
+            &nbsp;&nbsp;<span class="datos">Dirección de correo</span>
+
+        </section>
     </main>
-    <footer>
-        <hr>
-        Todos los derechos reservados Front End
+
+    <footer class="barras">
+        <h4 class="letra">Todos los derechos reservados Front End</h4>
     </footer>
 
 </body>
