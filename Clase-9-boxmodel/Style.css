@@ -1,0 +1,156 @@
+/* Importo librería iconos*/
+@import url("https//use.fontawesome.com/releases/v6.1.0/cc/all.css");
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*-- Barra superior*/
+body{
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    background-color: #1CD1B0;
+    width: 100%;
+}
+
+main {
+    margin-top: 200px;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin:0;
+    padding: 10px;
+}
+
+.inicio {
+    background-color: #00669F;
+    padding: 5px;
+}
+
+.contenedor {
+    display: flex;
+    height: 800px;
+    /* width: 100%; */
+       
+}
+
+.box1 {
+    align-items: stretch;
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 70%;
+    justify-content: space-between;
+    margin: 10px;
+    padding-bottom: 50px;
+    width: 34%;
+   
+
+}
+
+.cabecera1 {
+    background-color: #F3F3F3;
+    background-image: url(./Img/cueva.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    height: 220px;
+}
+
+.cabecera2 {
+    background-color: #F3F3F3;
+    background-image: url(./Img/cielo.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    height: 220px;
+}
+
+.imgcueva {
+    height: 150px;
+    padding: 10px;   
+    
+}
+
+.imgcielo {
+    height: 150px;
+    padding: 10px;
+}
+
+.imgcora {
+    background-image: url(./Img/corazon.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 100px;
+    
+    
+}
+ 
+.imgbatman {
+    background-image: url(./Img/batman.png);
+    background-size: cover;
+    border-radius: 75px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+   
+  
+}
+
+.imgchica {
+    background-image: url(./Img/chica.png);
+    background-size: cover;
+    border-radius: 75px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+    
+    
+.titulo {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.texto {
+    font-size: 16px;
+    font-style: normal;
+    padding: 20px;
+}
+
+.boton {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.button{
+    align-items: center;
+    background-color:#00669F;
+    color: #F3F3F3;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 10px;
+    
+}
+
+.textofinal {
+    color: #FFF9F9;
+    
+}
